@@ -1,0 +1,129 @@
+.cuerpo-container{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.cuerpo-container label{
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.container-contenido{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.cuerpo-documento{
+    width: 100%;
+    margin-top: 9px;
+    display: flex;
+}
+
+.cuerpo-separador{
+    padding: 0;
+    height: 2px;
+    margin-left: 13px;
+}
+
+.cuerpo-icono {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #006CD8;
+    margin-right: 2px;
+}
+
+.cuerpo-label{
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpo-label-titulo label{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cuerpo-label-contenido label{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.cuerpo-formulario{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.a�adir-destinatario{
+    padding: 8px;
+    width: 24%;
+    margin-left: 30px;
+    border: 1px solid #CDCDCD;
+    background: transparent;
+    display:flex;
+    flex-direction: row;
+    cursor: pointer;
+    color: #CDCDCD;
+}
+
+.icono-add{
+    width: 5%;
+    font-size: 20px;
+}
+
+.texto-add{
+    width: 80%;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.cuerpo-botones{
+    display:flow;
+    width: 82%;
+    padding: 10px;
+    text-align: right;
+    border-top: 1px solid #4B4B4B;
+    margin-top: 20px;
+}
+
+.cuerpo-botones button{
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #006CD8;
+    margin-left: 15px;
+    border: 0px;
+    cursor: pointer;
+    font-family: "Poppins-ExtraLight";
+    font-weight: bold;
+}
+
+.cuerpo-botones button[title=volver]{
+    background: transparent;
+    border: 1px solid #CDCDCD;
+    color: #CDCDCD;
+}
+
+.cuerpo-botones button[title=volver] i{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.cuerpo-botones button[title=siguiente] i{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+/* check_radio */
+
+.otp{
+    margin: 3px 0 0 30px;
+}

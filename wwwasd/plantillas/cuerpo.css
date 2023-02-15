@@ -1,0 +1,288 @@
+/* menu de eleccion de plantillas */
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+.contTemplate{
+  background: rgb(253 254 253);
+  border: 1px solid rgb(241 241 241);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  float: left;
+  font-size: 12px;
+  width: 274px;
+  border-radius: 3px;
+  height: 100px;
+  color: black;
+  font-family: "Poppins-ExtraLight";
+  font-weight: bolder;
+  
+  }
+
+  .backtemplate{
+      padding-top: 8%;
+      background: #555555;
+      height: -webkit-fill-available;
+      color:white;
+  }
+  
+  .contWhite{
+      background: white;
+  }
+
+  .buttontemp{
+      background:#006CD8;
+  }
+  
+  /**CONTENEDOR PARA LAS PLANTILLAS, PARA QUE EL NAVBAR SE AJUSTE CON CADA HOJA/*/
+  .contVistas{
+      margin-top: 10%;
+  }
+  
+  /**ESTILO DE HOJAS PARA LAS PLANTILLAS*/
+  .pages{
+      border: none;
+      box-shadow: 4px 6px 20px -5px;
+      margin: auto;
+      height: auto;
+      margin-top: 6%;
+      padding: 5% 5% 5% 5%;
+  }
+  input{
+      width: 30px;
+      height:30px;
+  }
+ /* #submitButton{
+  margin-top: 10%;
+  margin-left: 60%;
+ } */
+ .contTexto{
+display: flex;
+ }
+ .texto{
+  margin:3%;
+  padding-top: 3px;
+  margin-top: 14%;
+ }
+ .imgSave{
+  width: 34px;
+  height: 30px;
+ }
+ #title{
+  border: none;
+  border-radius: 5px;
+  color: black;
+  background: rgb(243 243 243);
+  padding-top: 1.1%;
+  padding-left: 2.1%;
+  display: flex;
+ }
+ .contPlantillas{
+  border-radius:5px;
+  margin:auto;
+  height:80vh;
+  width:96%;
+  background:#ffffff;
+ }
+ .contContenido{
+  padding-left:6%;
+ }
+ #order-button{
+  padding-left: 10px;
+  height: 21px;
+  padding-top: 5px;
+  cursor:pointer;
+}
+#order-button:hover{
+  transform: scale(1.1);
+ 
+}
+
+#styleOrder{
+  font-family:'Poppins-ExtraLight';
+  font-weight:bolder;
+  border-bottom:1px solid black;
+  font-size: 14px;
+}
+.contSearch{
+  float: right;
+  margin-left: 63%;
+}
+#search{
+  font-style: italic;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  font-weight: 400;
+  border: 1px solid rgb(220 220 220);
+}
+.btnback{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+  width: 97px;
+  position: fixed;
+  margin-left: -34.1%;
+  margin-top: 8%;
+  height: 38px;
+  border-radius: 5px;
+  z-index: 100;
+}
+.swal2-styled.swal2-confirm{
+  background: rgb(8 66 152) !important;
+  border: 3px solid rgb(8 66 152) !important;
+}
+.swal2-styled.swal2-confirm:hover{
+  background: rgb(8 66 152) !important;
+  border: 3px solid rgb(8 66 152) !important;
+}
+.swal2-styled.swal2-confirm{
+  background: rgb(8 66 152) !important;
+  border: 3px solid rgb(8 66 152) !important;
+}/* menu de eleccion de plantillas */
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.contTemplate{
+    border: 1px solid rgb(241 241 241);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    float: left;
+    font-size: 12px;
+    width: 274px;
+    border-radius: 3px;
+    height: 100px;
+    color: black;
+    font-family: "Poppins-ExtraLight";
+    font-weight: bolder;
+    background: linear-gradient(rgb(253 254 253), #edebeb);
+    }
+
+    .backtemplate{
+        padding-top: 8%;
+        background: #555555;
+        height: -webkit-fill-available;
+        color:white;
+    }
+    
+    .contWhite{
+        background: white;
+    }
+
+    .buttontemp{
+        background:#006CD8;
+    }
+    
+    /**CONTENEDOR PARA LAS PLANTILLAS, PARA QUE EL NAVBAR SE AJUSTE CON CADA HOJA/*/
+    .contVistas{
+        margin-top: 10%;
+    }
+    
+    /**ESTILO DE HOJAS PARA LAS PLANTILLAS*/
+    .pages{
+        border: none;
+        box-shadow: 4px 6px 20px -5px;
+        margin: auto;
+        height: auto;
+        margin-top: 6%;
+        padding: 5% 5% 5% 5%;
+    }
+    input{
+        width: 30px;
+        height:30px;
+    }
+   /* #submitButton{
+    margin-top: 10%;
+    margin-left: 60%;
+   } */
+   .contTexto{
+display: flex;
+   }
+   .texto{
+    margin:3%;
+    padding-top: 3px;
+    margin-top: 14%;
+   }
+   .imgSave{
+    width: 34px;
+    height: 30px;
+   }
+   #title{
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background: rgb(243 243 243);
+    padding-top: 1.1%;
+    padding-left: 2.1%;
+    display: flex;
+   }
+   .contPlantillas{
+    border-radius:5px;
+    margin:auto;
+    height:80vh;
+    width:96%;
+    background:#ffffff;
+   }
+   .contContenido{
+    padding-left:6%;
+   }
+   #order-button{
+    padding-left: 10px;
+    height: 21px;
+    padding-top: 5px;
+    cursor:pointer;
+  }
+  #order-button:hover{
+    transform: scale(1.1);
+   
+  }
+
+  #styleOrder{
+    font-family:'Poppins-ExtraLight';
+    font-weight:bolder;
+    border-bottom:1px solid black;
+    font-size: 14px;
+  }
+  .contSearch{
+    float: right;
+    margin-left: 63%;
+  }
+  #search{
+    font-style: italic;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    font-weight: 400;
+    border: 1px solid rgb(220 220 220);
+  }
+  .btnback{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    opacity: 0.9;
+    width: 97px;
+    position: fixed;
+    margin-left: -34.1%;
+    margin-top: 8%;
+    height: 38px;
+    border-radius: 5px;
+    z-index: 100;
+  }
+  .swal2-styled.swal2-confirm{
+    background: rgb(8 66 152) !important;
+    border: 3px solid rgb(8 66 152) !important;
+  }
+  .swal2-styled.swal2-confirm:hover{
+    background: rgb(8 66 152) !important;
+    border: 3px solid rgb(8 66 152) !important;
+  }
+  .swal2-styled.swal2-confirm{
+    background: rgb(8 66 152) !important;
+    border: 3px solid rgb(8 66 152) !important;
+  }

@@ -1,0 +1,23 @@
+
+/* Tabla */
+.doc-column {
+    width: 30%;
+}
+
+.dest-column {
+    width: 50%;
+}
+
+/* Estado del documento */
+.pendiente {
+    color: #FF5B24;
+}
+
+.firmado {
+    color: #59B300;
+}
+
+.negrita {
+    font-weight: bold;
+}
+

@@ -1,0 +1,36 @@
+.cuerpo-container{
+    width: 100%;
+}
+
+.cuerpo-pdf{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cuerpo-botones{
+    border: 1px solid #E2E2E2;
+    width: 98.4%;
+    padding: 10px;
+    background-color: #fff;
+    text-align: right;
+}
+
+.cuerpo-botones button{
+    padding: 12px;
+    background-color: #FCEC00;
+    margin-left: 15px;
+    border: 0.1px solid #B9B9B9;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cuerpo-pdf label{
+    font-size: 30px;
+}
+
+.cuerpo-pdf textarea{
+    width: 100%;
+    font-size: 20px;
+}

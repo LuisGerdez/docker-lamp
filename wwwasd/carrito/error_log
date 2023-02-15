@@ -1,0 +1,57 @@
+[22-Sep-2021 14:45:29 UTC] PHP Warning:  include(./cuerpo.php): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 8
+[22-Sep-2021 14:45:29 UTC] PHP Warning:  include(./cuerpo.php): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 8
+[22-Sep-2021 14:45:29 UTC] PHP Warning:  include(): Failed opening './cuerpo.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 8
+[27-Sep-2021 23:01:13 UTC] PHP Fatal error:  Uncaught Error: Unsupported operand types in /home2/ingmaju5/public_html/firmadocV2.0/revisar/cuerpo.php:50
+Stack trace:
+#0 /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php(8): include()
+#1 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/revisar/cuerpo.php on line 50
+[11-Oct-2021 23:50:51 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 34
+[11-Oct-2021 23:55:59 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 34
+[12-Oct-2021 13:34:52 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 34
+[12-Oct-2021 21:08:32 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 34
+[12-Oct-2021 21:10:07 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 35
+[12-Oct-2021 21:27:51 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 38
+[12-Oct-2021 21:28:17 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 38
+[12-Oct-2021 21:29:05 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 39
+[12-Oct-2021 21:30:19 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 42
+[12-Oct-2021 21:35:24 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 47
+[12-Oct-2021 21:36:40 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 47
+[12-Oct-2021 21:44:47 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 24
+[12-Oct-2021 21:45:17 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 24
+[12-Oct-2021 21:45:45 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 24
+[12-Oct-2021 21:45:59 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 24
+[12-Oct-2021 22:09:37 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 4
+[12-Oct-2021 22:19:09 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 4
+[12-Oct-2021 22:19:39 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 4
+[12-Oct-2021 22:19:53 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 4
+[12-Oct-2021 22:20:40 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 4
+[12-Oct-2021 22:21:03 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 4
+[12-Oct-2021 23:01:01 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 80
+[12-Oct-2021 23:01:22 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 80
+[12-Oct-2021 23:04:29 UTC] PHP Warning:  Use of undefined constant SERVERURL - assumed 'SERVERURL' (this will throw an Error in a future version of PHP) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/correo.php on line 80
+[28-Oct-2021 21:23:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php:40) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/cuerpo.php on line 60
+[28-Oct-2021 21:25:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php:40) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/cuerpo.php on line 60
+[28-Oct-2021 21:26:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php:40) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/cuerpo.php on line 2
+[28-Oct-2021 21:26:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php:40) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/cuerpo.php on line 2
+[28-Oct-2021 21:27:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php:40) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/cuerpo.php on line 2
+[28-Oct-2021 21:35:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php:68) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 69
+[28-Oct-2021 21:39:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php:68) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 70
+[28-Oct-2021 21:42:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php:2) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 3
+[28-Oct-2021 21:42:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php:2) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 3
+[28-Oct-2021 21:42:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php:2) in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 3
+[13-Nov-2021 19:37:31 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'codigomi_ingmaju5'@'localhost' (using password: YES) in /home2/ingmaju5/public_html/firmadocV2.0/conexion.php on line 6
+[13-Nov-2021 19:37:31 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/ingmaju5/public_html/firmadocV2.0/conexion.php on line 8
+[13-Nov-2021 19:37:31 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 42
+[13-Nov-2021 19:37:31 UTC] PHP Warning:  enviarCorreo(): Couldn't fetch mysqli in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 43
+[13-Nov-2021 19:37:31 UTC] PHP Warning:  enviarCorreo(): Couldn't fetch mysqli in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 45
+[13-Nov-2021 19:37:31 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 54
+[13-Nov-2021 19:37:31 UTC] PHP Warning:  enviarCorreo(): Couldn't fetch mysqli in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 55
+[13-Nov-2021 19:37:31 UTC] PHP Warning:  enviarCorreo(): Couldn't fetch mysqli in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 57
+[13-Nov-2021 19:37:31 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home2/ingmaju5/public_html/firmadocV2.0/revisar/index.php on line 62
+[25-Nov-2021 20:14:39 UTC] PHP Parse error:  syntax error, unexpected 'hola' (T_STRING), expecting ',' or ';' in /home2/ingmaju5/public_html/firmadocV2.0/tienda/saludo.php on line 1
+[25-Nov-2021 20:14:41 UTC] PHP Parse error:  syntax error, unexpected 'hola' (T_STRING), expecting ',' or ';' in /home2/ingmaju5/public_html/firmadocV2.0/tienda/saludo.php on line 1
+[25-Nov-2021 20:14:50 UTC] PHP Parse error:  syntax error, unexpected 'hola' (T_STRING), expecting ',' or ';' in /home2/ingmaju5/public_html/firmadocV2.0/tienda/saludo.php on line 1
+[25-Nov-2021 20:14:54 UTC] PHP Parse error:  syntax error, unexpected 'hola' (T_STRING), expecting ',' or ';' in /home2/ingmaju5/public_html/firmadocV2.0/tienda/saludo.php on line 1
+[25-Nov-2021 20:15:14 UTC] PHP Parse error:  syntax error, unexpected 'hola' (T_STRING), expecting ',' or ';' in /home2/ingmaju5/public_html/firmadocV2.0/tienda/saludo.php on line 1
+[25-Nov-2021 20:15:18 UTC] PHP Parse error:  syntax error, unexpected 'hola' (T_STRING), expecting ',' or ';' in /home2/ingmaju5/public_html/firmadocV2.0/tienda/saludo.php on line 1

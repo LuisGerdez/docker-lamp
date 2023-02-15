@@ -1,0 +1,103 @@
+.cuerpo-container {
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+}
+
+.container-contenido {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.cuerpo-container label {
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.cuerpo-documento {
+    width: 100%;
+
+    background-color: #fff;
+    margin-top: 25px;
+}
+
+.cuerpo-detalle {
+    padding: 12px;
+}
+
+.cuerpo-detalle i {
+    font-size: 3rem;
+    color: #C0C0C0;
+}
+
+.cuerpo-detalle label {
+    font-size: 2rem;
+    color: #B3B3B3;
+    margin-left: 20px;
+}
+
+.cuerpo-complemento {
+    width: 100%;
+    margin-top: 10px;
+    text-align: end;
+    color: #fff;
+}
+
+.complemento-items label {
+    font-size: 15px;
+}
+
+.complemento-items button {
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #006CD8;
+    margin-left: 15px;
+    cursor: pointer;
+    font-family: "Poppins-ExtraLight";
+    font-weight: bold;
+    border: 0px;
+}
+
+.complemento-items button i {
+    margin-left: 10px;
+}
+
+.complemento-items input[type="checkbox"] {
+    display: none;
+}
+
+.complemento-items input[type="checkbox"]+label {
+    cursor: pointer;
+}
+
+.complemento-items label:before {
+    content: '';
+    background: #fff;
+    display: inline-block;
+    height: 20px;
+    margin-right: 4px;
+    margin-left: 25px;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.complemento-items input[type="checkbox"]:checked+label:before {
+    content: '✓';
+    font-size: 15px;
+    font-weight: 900;
+    color: #00f;
+}
+
+.cuerpo-informacion {
+    color: #fff;
+}
+button[title=volver] {
+    background: transparent;
+    border: 1px solid #CDCDCD;
+    color: #CDCDCD;
+}

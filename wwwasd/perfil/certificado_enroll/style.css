@@ -1,0 +1,229 @@
+body{
+    background-image: url("./img/marco0.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: justify !important;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+table{
+    margin: auto;
+}
+
+.subtitles{
+    text-align: left;    
+}
+
+.bolders{
+    text-align: left;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+   
+}
+
+.title{
+    font-size: 24px;
+    padding-top: 24px;
+    font-style: normal;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.title-head{
+    text-align: center;
+    color: #555555;
+    font-size: 35px;
+    position: absolute;   
+    padding-top: 40px;
+    font-style: normal;
+   
+   
+}
+
+.container_info{
+    margin: auto;
+    width: 100%;
+    margin-left: 70px;
+}
+
+.information{
+    margin: auto;
+    
+}
+
+.table_basic{
+    text-align: left;
+    float: left;
+    margin: 10px 15px;
+}
+
+.table_basic tr{
+    text-align: left;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.table_basic tr .title{
+    width: 570px;
+}
+
+.table_basic tr td{
+    padding-top: 10px;
+}
+
+td{
+    font-style: oblique;  
+}
+
+.faceimg{
+    width: 100px;
+    height: 100px;
+    margin-top: -11rem;
+    float: right;
+}
+
+.table_personal{
+    text-align: left;
+    float: left;
+    margin: 10px 15px;
+}
+
+.table_personal tr th{
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.table_result tr th{
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.table_result tr td{
+   text-align: left;
+   padding-left: 55px;
+}
+
+.table_result tr th{
+    text-align: left;
+    
+}
+
+.table_result{
+    padding-right: 10%;
+    text-align: left;
+    float: left;
+    margin: 10px 15px;
+}
+
+.top{
+    margin-top: -2rem;
+}
+
+.border-top{
+    border-top:1px solid black;
+}
+
+/* PAGINA NUMERO 2 */
+#title{
+    text-align: center;
+    border-bottom: 1px solid  black;
+    padding-top: 50px;
+    margin: 0px 100px 0px 100px;
+    color: #000;
+}
+
+.title2{
+    color: #000;
+    text-align: center;
+    border-bottom: 1px solid  black;
+    padding-top: 30px;
+    margin: 0px 100px 0px 100px;
+}
+
+p{
+    text-align: justify;
+}
+
+b{
+    font-weight: bold;
+    
+}
+
+table, td, th {
+  box-sizing: content-box;
+  text-align: center;
+}
+
+table {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-collapse: collapse;
+}
+
+.container_header {
+  margin-top: 2px;
+}
+
+.container_header h3 {
+  text-align: center;
+  line-height: 0.2rem;
+}
+
+h4 {
+  text-align: justify;
+  justify-content: start;
+  margin-left: 10%;
+  margin-right: 8%;
+  font-size: 1.1rem;
+}
+
+h5{
+    text-align: justify;
+    justify-content: start;
+    font-size: 1rem;
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 8%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: -5;
+}
+
+.container_firma{
+  position: relative;
+  margin-top: 3rem;
+}
+
+.firma_individuos{
+  margin-top: 3.5rem;
+  margin-left: 10rem;
+  float: left;
+}
+
+.firma_grafo{
+  width: 200px;
+  height: 80px;
+}
+
+.img_destinatario{
+  float: right;
+  margin-top: -9rem;
+  margin-right: 12rem; 
+  width: 120px;
+  height: 150px;
+}
+
+.table_personal,th,td{
+    border: none;
+}

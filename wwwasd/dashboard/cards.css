@@ -1,0 +1,58 @@
+.cards-container {
+    background: #555555;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    padding: 0px 0px 65px 0px;
+    margin: 0;
+}
+
+.cards-anuncio{
+	background: #464646;
+    position:relative;
+    float:left;
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.cards-texto{
+	color: #fff;
+    width: 39vw;
+    height: 10vh;
+    background: #464646;
+}
+
+.cards-texto header{
+    font-size: 18px;
+    font-family: "Poppins-ExtraLight";
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.cards-texto span{
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: "Poppins-ExtraLight";
+}
+
+@media only screen and (max-width: 700px) {
+    .cards-container{
+        flex-direction: column;
+    }
+
+    .cards-figura{
+        width: 20vw;
+        height: 20vh;
+    }
+
+    .cards-texto{
+        width: 50vw;
+        height: 20vh;
+    }
+}

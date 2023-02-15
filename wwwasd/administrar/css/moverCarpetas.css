@@ -1,0 +1,60 @@
+
+/* Fondo de ventana emergente */
+.fondo {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Contenedor de lista de carpetas */
+.list-container {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    border-radius: 10px;
+    padding: 20px 0px;
+    width: 550px;
+    background-color: #FFF;
+}
+
+.items-container {
+    height: 100px;
+    overflow-y: auto;
+}
+
+.list-container h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contenedor-guardar {
+    display: flex;
+    justify-content: center;
+}
+
+#formMove input[type=submit] {
+    width: 20%;
+    text-transform: capitalize;
+    background-color: #198754;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+
+#formMove input[type=submit]:hover {
+    background-color: #157347;
+}
+
+#formMove {
+    padding: 0px 50px;
+}

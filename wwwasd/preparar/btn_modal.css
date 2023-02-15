@@ -1,0 +1,18 @@
+
+
+
+.btn_enviar{
+   border-radius: 0%;
+    padding-left: 30px;
+}  
+.btn_otp{
+    margin-top: -70px;
+}
+
+.modal-body {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.btn_modal_inicio{
+    border-radius: 0;
+}

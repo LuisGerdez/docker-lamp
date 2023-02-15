@@ -1,0 +1,122 @@
+.cuerpo-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuerpo-titulo{
+    width: 100%;
+    font-size: 35px;
+    color: #113EBB;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cuerpo-titulo label{
+    margin-left: 15px;
+}
+
+.cuerpo-contenido{
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+.contenido-opciones{
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contenido-opciones button{
+    background-color: #fff;
+    border: 1px solid #808080;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contenido-ofertas{
+    width: 100%;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 27px;
+    display: flex;
+}
+
+.oferta-contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px solid #113EBB;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    width: 25%;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: #fff;
+    padding-top: 15px;
+}
+
+.oferta-contenido-cabezera{
+    width: 50%;
+    text-align: center;
+}
+
+.cabezera-contenido{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabezera-contenido label{
+    color: #113EBB;
+    font-size: 25px;
+}
+
+.cabezera-contenido span{
+    margin-top: 7px;
+    color: #113EBB;
+    font-size: 25px;
+    border-bottom: 1px solid #808080;
+}
+
+.cabezera-contenido p{
+    color: #808080;
+    font-size: 10px;
+}
+
+.oferta-contenido-boton{
+    width: 100%;
+    border-bottom: 1px solid #808080;
+    padding-bottom: 15px;
+}
+
+.oferta-contenido-boton button{
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #FCEC00;
+    border-radius: 5px;
+}
+
+.oferta-contenido-boton button:hover{
+    background: #FACA40;
+    cursor: pointer;
+}
+
+.oferta-contenido-label{
+    padding-top: 10px;
+}
+
+.oferta-contenido-label label{
+    color: #808080;
+}

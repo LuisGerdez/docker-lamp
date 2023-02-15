@@ -1,0 +1,54 @@
+[13-Jan-2022 02:05:56 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:108) in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 110
+[13-Jan-2022 02:11:57 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:108) in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 110
+[13-Jan-2022 20:06:41 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:111) in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 113
+[17-Jan-2022 18:19:34 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:27
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 27
+[17-Jan-2022 18:20:03 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:27
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 27
+[17-Jan-2022 18:34:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:27
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 27
+[17-Jan-2022 18:34:55 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:27
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 27
+[18-Jan-2022 00:17:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php on line 14
+[18-Jan-2022 00:17:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php on line 14
+[18-Jan-2022 00:18:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php on line 14
+[18-Jan-2022 00:20:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php on line 15
+[18-Jan-2022 00:20:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php on line 15
+[18-Jan-2022 00:21:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php:16
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php on line 16
+[18-Jan-2022 00:22:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php:16
+Stack trace:
+#0 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/cuerpo.php on line 16
+[17-Jan-2022 19:41:34 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:111) in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 113
+[17-Jan-2022 19:43:08 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:111) in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 113
+[17-Jan-2022 19:50:06 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:111) in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 113
+[17-Jan-2022 19:57:17 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:111) in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 113
+[17-Jan-2022 19:58:03 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:111) in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 113
+[17-Jan-2022 20:19:15 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:111) in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 113
+[17-Jan-2022 20:30:36 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php:111) in /home2/ingmaju5/public_html/firmadocV2.0/firmar_digitalmente/firmardigitalmente.php on line 113

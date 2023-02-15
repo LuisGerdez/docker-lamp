@@ -1,0 +1,172 @@
+.cuerpo-container {
+
+    width: 100%;
+
+    padding: 0px 0px 15px 0px;
+
+    margin: 0;
+
+    z-index: 300;
+
+}
+
+
+
+.datos-container{
+
+    color:#fff;
+
+    width: 90%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    display: flex;
+
+}
+
+
+.datos-container-formulario{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-subtitulo{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.datos-plantillas{
+    margin-top: 50px;
+}
+
+.datos-plantillas p{
+    margin-top: 30px;
+}
+
+.datos-botones{
+    margin-top: 127px;
+    margin-left: 50px;
+}
+
+.datos-botones a{
+    justify-content: center;
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #006CD8;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0px;
+    cursor: pointer;
+    font-family: "Poppins-ExtraLight";
+    border-radius: 0px;
+    text-decoration: none;
+}
+
+.datos-botones button{
+    justify-content: center;
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #006CD8;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0px;
+    cursor: pointer;
+    font-family: "Poppins-ExtraLight";
+    font-weight: bold;
+    border-radius: 0px;
+}
+
+.datos-botones a:hover{
+    background: #0060C1;
+    cursor: pointer;
+}
+
+.datos-botones button:hover{
+    background: #0060C1;
+    cursor: pointer;
+}
+
+.datos-formulario{
+    display: flex;
+}
+
+.datos-formulario div{
+    margin: 20px;
+}
+
+.datos-formulario p{
+    color: #fff;
+    margin: 0;
+}
+
+.datos-formulario input{
+    padding: 10px;
+    padding-right: 60px;
+    font-size: 15px;
+    font-family: "Poppins-ExtraLight";
+}
+
+.cuerpo-botones{
+    width: 90%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.cuerpo-botones button{
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #006CD8;
+    margin-left: 15px;
+    border: 0px;
+    cursor: pointer;
+    font-family: "Poppins-ExtraLight";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cuerpo-botones button[title=volver]{
+    background: transparent;
+    border: 1px solid #CDCDCD;
+    color: #fff;
+    font-size: 15px;
+}
+
+.cuerpo-botones button[title=volver] i{
+    margin-left: 0px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.cuerpo-botones button[title=siguiente] i{
+    color: #fff;
+    margin-right: 0px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }

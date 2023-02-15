@@ -1,0 +1,15 @@
+{
+    "require": {
+        "firebase/php-jwt": "^6.3",
+        "aws/aws-sdk-php": "^3.253",
+        "phpmailer/phpmailer": "^6.7",
+        "mpdf/mpdf": "^8.1",
+        "iio/libmergepdf": "^4.0",
+        "phenx/php-font-lib": "^0.5.4",
+        "sabberworm/php-css-parser": "^8.4",
+        "phpoffice/phpword": "^1.0",
+        "dompdf/dompdf": "^2.0",
+        "fpdf/fpdf": "^1.85",
+        "tecnickcom/tcpdf": "^6.6"
+    }
+}

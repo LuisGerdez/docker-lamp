@@ -1,0 +1,56 @@
+[05-Nov-2021 22:16:12 UTC] PHP Warning:  fopen(../bodega/precarga/1/GuÃ­a normas APA versiÃ³n institucional UCN.pdf): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php on line 42
+[05-Nov-2021 22:16:12 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: No stream given. in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php:104
+Stack trace:
+#0 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(43): setasign\Fpdi\PdfParser\StreamReader->__construct(false, true)
+#1 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile('../bodega/preca...')
+#2 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/FpdiTrait.php(213): Mpdf\Mpdf->getPdfReaderId('../bodega/preca...')
+#3 /home2/ingmaju5/public_html/firmadocV2.0/validacion/cuerpo.php(56): Mpdf\Mpdf->setSourceFile('../bodega/preca...')
+#4 /home2/ingmaju5/public_html/firmadocV2.0/validacion/index.php(21): include('/home2/ingmaju5...')
+#5 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php on line 104
+[05-Nov-2021 22:16:57 UTC] PHP Warning:  fopen(../bodega/precarga/1/GuÃ­a normas APA versiÃ³n institucional UCN.pdf): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php on line 42
+[05-Nov-2021 22:16:57 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: No stream given. in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php:104
+Stack trace:
+#0 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(43): setasign\Fpdi\PdfParser\StreamReader->__construct(false, true)
+#1 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile('../bodega/preca...')
+#2 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/FpdiTrait.php(213): Mpdf\Mpdf->getPdfReaderId('../bodega/preca...')
+#3 /home2/ingmaju5/public_html/firmadocV2.0/validacion/cuerpo.php(56): Mpdf\Mpdf->setSourceFile('../bodega/preca...')
+#4 /home2/ingmaju5/public_html/firmadocV2.0/validacion/index.php(21): include('/home2/ingmaju5...')
+#5 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php on line 104
+[05-Nov-2021 22:18:46 UTC] PHP Warning:  fopen(../bodega/precarga/1/GuÃ­a normas APA versiÃ³n institucional UCN.pdf): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php on line 42
+[05-Nov-2021 22:18:46 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: No stream given. in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php:104
+Stack trace:
+#0 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(43): setasign\Fpdi\PdfParser\StreamReader->__construct(false, true)
+#1 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile('../bodega/preca...')
+#2 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/FpdiTrait.php(213): Mpdf\Mpdf->getPdfReaderId('../bodega/preca...')
+#3 /home2/ingmaju5/public_html/firmadocV2.0/validacion/cuerpo.php(56): Mpdf\Mpdf->setSourceFile('../bodega/preca...')
+#4 /home2/ingmaju5/public_html/firmadocV2.0/validacion/index.php(21): include('/home2/ingmaju5...')
+#5 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php on line 104
+[05-Nov-2021 22:30:27 UTC] PHP Warning:  fopen(../bodega/precarga/1/GuÃ­a normas APA versiÃ³n institucional UCN.pdf): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php on line 42
+[05-Nov-2021 22:30:27 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: No stream given. in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php:104
+Stack trace:
+#0 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(43): setasign\Fpdi\PdfParser\StreamReader->__construct(false, true)
+#1 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile('../bodega/preca...')
+#2 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/FpdiTrait.php(213): Mpdf\Mpdf->getPdfReaderId('../bodega/preca...')
+#3 /home2/ingmaju5/public_html/firmadocV2.0/validacion/cuerpo.php(58): Mpdf\Mpdf->setSourceFile('../bodega/preca...')
+#4 /home2/ingmaju5/public_html/firmadocV2.0/validacion/index.php(21): include('/home2/ingmaju5...')
+#5 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/StreamReader.php on line 104
+[05-Nov-2021 23:51:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home2/ingmaju5/public_html/firmadocV2.0/validacion/firmar.php on line 23
+[05-Nov-2021 23:51:33 UTC] PHP Fatal error:  Uncaught setasign\Fpdi\PdfParser\PdfParserException: Unable to find PDF file header. in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/PdfParser.php:130
+Stack trace:
+#0 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/PdfParser.php(171): setasign\Fpdi\PdfParser\PdfParser->resolveFileHeader()
+#1 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfReader/PdfReader.php(84): setasign\Fpdi\PdfParser\PdfParser->getPdfVersion()
+#2 /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/FpdiTrait.php(217): setasign\Fpdi\PdfReader\PdfReader->getPdfVersion()
+#3 /home2/ingmaju5/public_html/firmadocV2.0/validacion/firmar.php(39): Mpdf\Mpdf->setSourceFile('../bodega/preca...')
+#4 {main}
+  thrown in /home2/ingmaju5/public_html/firmadocV2.0/validacion/vendor/setasign/fpdi/src/PdfParser/PdfParser.php on line 130
+[13-Nov-2021 19:42:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home2/ingmaju5/public_html/firmadocV2.0/validacion/firmar.php on line 34
+[14-Dec-2021 00:32:59 UTC] PHP Warning:  include(validar.php): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/descargar/index.php on line 27
+[14-Dec-2021 00:32:59 UTC] PHP Warning:  include(validar.php): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/descargar/index.php on line 27
+[14-Dec-2021 00:32:59 UTC] PHP Warning:  include(): Failed opening 'validar.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/ingmaju5/public_html/firmadocV2.0/descargar/index.php on line 27
+[14-Dec-2021 00:34:49 UTC] PHP Warning:  include(validar.php): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/descargar/index.php on line 27
+[14-Dec-2021 00:34:49 UTC] PHP Warning:  include(validar.php): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/descargar/index.php on line 27
+[14-Dec-2021 00:34:49 UTC] PHP Warning:  include(): Failed opening 'validar.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/ingmaju5/public_html/firmadocV2.0/descargar/index.php on line 27

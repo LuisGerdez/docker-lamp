@@ -1,0 +1,2 @@
+[11-Jan-2022 16:33:40 UTC] PHP Warning:  move_uploaded_file(../bodega/precarga//firmadigital/certificate.pfx): failed to open stream: No such file or directory in /home2/ingmaju5/public_html/firmadocV2.0/firma_digital/index.php on line 18
+[11-Jan-2022 16:33:40 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpX29emG' to '../bodega/precarga//firmadigital/certificate.pfx' in /home2/ingmaju5/public_html/firmadocV2.0/firma_digital/index.php on line 18

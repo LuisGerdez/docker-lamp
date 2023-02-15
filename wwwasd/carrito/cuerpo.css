@@ -1,0 +1,119 @@
+.cuerpo-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuerpo-titulo{
+    width: 100%;
+    font-size: 35px;
+    color: #113EBB;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cuerpo-titulo label{
+    margin-left: 130px;
+}
+
+.cuerpo-encabezado{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.encabezado-nombre{
+    width: 40%;
+}
+
+.encabezado-precio{
+    width: 20%;
+    text-align: center;
+}
+
+.encabezado-cantidad{
+    width: 10%;
+    text-align: center;
+}
+
+.encabezado-subtotal{
+    width: 20%;
+    text-align: center;
+}
+
+.encabezado-eliminar{
+    width: 10%;
+    text-align: center;
+}
+
+.cuerpo-producto{
+    display: flex;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #F7F7F7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.producto-nombre{
+    width: 40%;
+}
+
+.producto-precio{
+    width: 20%;
+    text-align: center;
+}
+
+.producto-cantidad{
+    width: 10%;
+    text-align: center;
+}
+
+.producto-subtotal{
+    width: 20%;
+    text-align: center;
+}
+
+.producto-eliminar{
+    width: 10%;
+    text-align: center;
+    color: #113EBB;
+}
+
+.cuerpo-linea{
+    width: 80%;
+    border: 1px solid #113EBB;
+    background-color: #113EBB;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuerpo-total{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: end;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.total-titulo{
+    display:inline;
+    margin-right: 30px;
+}
+
+.total-valor{
+    display:inline;
+    margin-right: 10px;
+}
+
+

@@ -1,0 +1,127 @@
+
+@font-face {
+    font-family: Poppins;
+    src: url('../../recursos/Poppins/Poppins-ExtraLight.ttf');
+}
+
+#datatable_wrapper {
+    height: 100% !important;
+    overflow-y: auto !important;
+}
+
+.sorting {
+    text-align: center !important;
+    border: none !important;
+}
+
+.odd td, .even td {
+    border: 1px solid #CCC !important;
+    font-family: 'Poppins-ExtraLight' !important;
+    font-weight: bold !important;
+}
+
+.tabla {
+    background-color: #FFF;
+    border: none !important;
+    border-collapse: collapse !important;
+}
+
+.dataTables_length select {
+    border: none !important;
+    outline: none !important;
+}
+
+.dataTables_length label {
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+.dataTables_filter {
+    position: relative !important;
+}
+
+.dataTables_filter input {
+    background-color: #FFF !important;
+}
+
+.dataTables_filter label {
+    font-weight: bold !important;
+}
+
+.odd td:hover, .even td:hover {
+    background-color: #bbb5b5 !important;
+}
+
+.fl-button:hover {
+    background-color: #5491ce !important;
+}
+
+.dataTables_info {
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+}
+
+.dataTables_paginate {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+.lupa {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-65%);
+    right: 10px;
+}
+
+.paginate_button {
+    min-width: none !important;
+    padding: 0px 5px !important;
+}
+
+.odd .dataTables_empty {
+    border: none !important;
+    font-style: italic !important;
+    font-family: 'Poppins-ExtraLight' !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    padding-top: 46px !important;
+}
+
+.odd .dataTables_empty:hover {
+    background-color: transparent !important;
+}
+
+.opciones-menu {
+    z-index: 1;
+}
+
+.main-container {
+    overflow-y: hidden;
+}
+
+.sorting_disabled {
+    text-align: center !important;
+    border: none !important;
+}
+
+.sorting::after, .sorting_disabled::after {
+    content: none !important;
+}
+
+.sorting::before, .sorting_disabled::before {
+    content: none !important;
+}
+
+#datatable_info {
+    display: none !important;
+}
+
+#datatable_filter {
+    display: none !important;
+}
+
+/* #datatable {
+    margin-bottom: 40px;
+} */

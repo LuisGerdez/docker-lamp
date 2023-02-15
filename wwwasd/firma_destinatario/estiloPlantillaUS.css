@@ -1,0 +1,113 @@
+* {
+    color: blue;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  body {
+    background-image: url("./hoja-digital-usa2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+  }
+  
+  h4 {
+    text-align: left;
+    font-weight: lighter;
+    /* padding-top: 150px; */
+    margin-left: 2%;
+    margin-right: 8%;
+    font-size: 16px;
+    color:black;
+  }
+  
+  h5{
+    position: absolute;
+    font-size: .8rem;
+    bottom: 65px;
+    left: 50px;
+    /* color: blue; */
+  
+  }
+  
+  h6{
+    text-align: center;
+    position: absolute;
+    font-size: .9rem;
+    font-weight: light;
+    bottom: 35px;
+    left: 50px;
+    /* color: black; */
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .p_info{
+    font-size: .9rem;
+    font-weight: lighter;
+
+  }
+
+  
+  .table_info {
+    border-spacing: 10px 10px;
+  }
+  .table_info td{
+    
+  }
+  .table_info td:nth-child(1) {
+    width: 250px;
+    border-bottom: 1px solid;
+    text-align: left;
+    
+  }
+
+  .table_info td:nth-child(2) {
+    width: 200px;
+    border-bottom: 1px solid;
+    text-align: left;
+  }
+  
+  .signatory_table {
+    margin-left: -10px;
+    border-spacing: 20px 10px; 
+  }
+  
+  .image_td{
+    background-image: url('./marco.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 288px;
+    height: 135px;
+    text-align: center;
+    /* border: 1px solid gray; */
+  }
+
+  
+  h1 {
+    text-align: left;
+    font-size: large;
+    font-size: 28px;
+    margin-left: 5px;
+    
+  }
+  h5{
+  
+  }
+  
+
+  .grafo {
+    margin-top: -20px;
+    width: 150px;
+    height: 70px;
+    /* border: 1px solid black; */
+  }
+  
+  
+  .name{
+   /* text-align: center; */
+   /* border: 1px solid black; */
+  }
+  
+  

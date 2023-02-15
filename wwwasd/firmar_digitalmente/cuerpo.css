@@ -1,0 +1,88 @@
+.cuerpo-container{
+    width: 100%;
+}
+
+.cuerpo-clave{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.cuerpo-clave span{
+	font-size: 30px;
+}
+
+.cuerpo-clave input{
+	font-size: 25px;
+	padding: 7px;
+	margin-left: 10px;
+}
+
+.cuerpo-pdf{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.cuerpo-botones{
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.cuerpo-botones button{
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #006CD8;
+    margin-left: 15px;
+    border: 0px;
+    cursor: pointer;
+    font-family: "Poppins-ExtraLight";
+    font-weight: bold;
+}
+
+.cuerpo-botones button[title=volver]{
+    background: transparent;
+    border: 1px solid #CDCDCD;
+    color: #CDCDCD;
+}
+
+.cuerpo-botones button[title=volver] i{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.cuerpo-botones button[title=siguiente] i{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.input_container {
+    position: relative;
+    width: 50%;
+}
+
+.control {
+	font-size: 25px;
+	padding: 7px;
+    margin: 0;
+    padding-right: 5px;
+    width: 100%;
+}
+
+.icon {
+	font-size: 15px;
+    position: absolute;
+    bottom: 12px;
+    right: 3px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.cuerpo-container{
+    width: 100%;
+}
+
+.cuerpo-titulo{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.cuerpo-titulo label{
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.cuerpo-pdf{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.cuerpo-botones{
+    width: 80%;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.cuerpo-botones button{
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #006CD8;
+    margin-left: 15px;
+    border: 0px;
+    cursor: pointer;
+    font-family: "Poppins-ExtraLight";
+    font-weight: bold;
+}
+
+.cuerpo-botones button[title=volver]{
+    background: transparent;
+    border: 1px solid #CDCDCD;
+    color: #CDCDCD;
+}
+
+.cuerpo-botones button[title=volver] i{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.cuerpo-botones button[title=siguiente] i{
+    margin-right: 0px;
+    margin-left: 10px;
+}

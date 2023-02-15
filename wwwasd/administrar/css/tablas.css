@@ -1,0 +1,238 @@
+
+/* Estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Contenedor principal */
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 120px 30px 30px 30px;
+    background-color: #555555;
+}
+
+/* Barra de opciones */
+.opciones li {
+    list-style: none;
+}
+
+.opciones ul {
+    display: flex;
+    height: 100%;
+}
+
+.opciones a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #000;
+    padding: 0px 50px;
+    text-decoration: none;
+}
+
+.opciones {
+    width: fit-content;
+    font-family: 'Poppins-ExtraLight';
+    font-weight: bolder;
+    height: 60px;
+}
+
+.opciones li:not(.active) {
+    background-color: #DBDBDB;
+    margin-top: 3px;
+}
+
+.main-container {
+    position: relative;
+    background-color: #FFF;
+    overflow-y: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 30px;
+    height: 100%;
+}
+
+/* Tabla */
+.tabla {
+    width: 100%;
+    word-break: break-all;
+    font-family: sans-serif;
+}
+
+.tabla, .thead th {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.tbody tr, .tbody td {
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+#column-doc {
+    text-align: left;
+}
+
+.descargar, .mover, .descargarDoc {
+    cursor: pointer;
+}
+
+.descargar {
+    margin-right: 7.5px;
+}
+
+.mover {
+    margin-left: 7.5px;
+}
+
+.texto {
+    font-family: 'Poppins-ExtraLight';
+    font-weight: bold;
+}
+
+/* Filtro de ordenar */
+.ordenar-container {
+    position: relative;
+    float: right;
+    display: flex;
+    gap: 5px;
+}
+
+.ordenar {
+    font-family: 'Poppins-ExtraLight';
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+.ordenar-container img {
+    cursor: pointer;
+}
+
+/* Submenu de las opciones ordenar */
+.opciones-menu {
+    display: none;
+    position: absolute;
+    top: 26px;
+    right: 10px;
+    background-color: #DADADA;
+    list-style: none;
+    width: 140px;
+}
+
+.ordenar-container:hover > .content .opciones-menu {
+    display: block;
+}
+
+.content {
+    z-index: 1;
+}
+
+.opciones-menu li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.opciones-menu li:hover {
+    background-color: #006BD6;
+    color: #FFF;
+}
+
+.opciones-menu-visible {
+    display: block;
+}
+
+.index {
+    z-index: 1;
+}
+
+/* Efecto al pasar el taron (hover) */
+.tbody tr:hover {
+    background-color: #F2F2F2;
+}
+
+/* Opcion activa */
+.firmado {
+    color: #59B300;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.button-border {
+    border-right: 1px solid #A1A1A1;
+}
+
+/* Boton activo */
+.active {
+    background-color: #FFF;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.active a {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #006BD6;
+}
+
+.button-border {
+    border-right: 1px solid #A1A1A1;
+}
+
+/* Mensaje de lista sin documento */
+#vacio {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    font-style: italic;
+    font-family: 'Poppins-ExtraLight';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.main-container {
+    position: relative;
+}
+
+/* Datatable */
+#datatable {
+    border-collapse: collapse !important;
+    padding: 0 !important;
+}
+
+#datatable thead th {
+    border: none !important;
+}
+
+.sorting_disabled {
+    text-align: center !important;
+}
+
+.paginate_button {
+    padding: 0 !important;
+}
+
+.dataTables_empty  {
+    border-color: #FFF !important;
+    font-style: italic !important;
+    padding-top: 30px !important;
+}
+
+.dataTables_empty:hover {
+    background-color: #FFF !important;
+}

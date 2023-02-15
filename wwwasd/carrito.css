@@ -1,0 +1,25 @@
+.carrito-container{
+    cursor: pointer; 
+}
+
+.carrito-container a{
+    color: inherit;
+    text-decoration: none;
+}
+
+i {
+    font-size: 30px;
+    color: #006CD8;
+}
+
+.carrito-circulo{
+    position: absolute;
+    top: 0;
+    left: 26px;
+    width: 13px;
+    height: 13px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #f00;
+}

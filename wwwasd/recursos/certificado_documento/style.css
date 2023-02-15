@@ -1,0 +1,46 @@
+body {
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+* {
+    font-family: Arial, sans-serif; 
+}
+
+p {
+    text-align: justify;
+    margin: 0;
+    display: inline-block;
+    font-size: 11px;
+}
+
+hr {
+    border: none;
+    height: 1.5px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+table {
+    width: 100%;
+    margin: 0;
+    padding-left: -4x !important;
+}
+
+#certificadoFirma-id {
+    margin-top: 15px !important;
+    border:3px solid #000000;
+    /* border-radius: 3mm / 3mm; */
+    background-clip: border-box;
+    padding: 5px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.blank_row {
+    height: 5px !important; /* overwrites any other rules */
+}

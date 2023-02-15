@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url("../../recursos/Poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../../recursos/Poppins/Poppins-Bold.ttf");
+}
+
+/*datatables*/
+.text-center-datatable {
+  font-family: "Poppins-ExtraLight";
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-justify-datatable {
+    max-width: 190px;
+    display:flex;
+    overflow: auto;
+    /*-webkit-overflow-scrolling: auto;*/
+    /*text-overflow: Ellipsis;*/
+    /*white-space: nowrap;*/
+}
+
+/*.text-th-center-datatable{
+    text-align:center;
+}*/
+
+.text-font-datatable{
+  font-family: "Poppins-ExtraLight";
+  font-size: 16px;
+  /*color: #000;
+  font-weight: bold;*/
+}
+
+/*.thead-f {
+  font-family: "Poppins-Bold";
+  font-size: 16px;
+}*/
+
+.th {
+  font-family: "Poppins-Bold";
+}
+
+.td-hidden{
+  display:none;
+}
+
+/*Boton exportar a excel*/
+.btn-export {
+    font-family: "Poppins-ExtraLight";
+    text-decoration: none;
+    padding: 4px;
+    font-weight: 600;
+    /*font-size: 20px;*/
+    /*color: #ffffff;*/
+    color: #000;
+    margin-bottom: 15px;
+    /*margin-top: 30px;*/
+    /*background-color: #1883ba;*/
+    background-color: #EEEEEE;
+    border-radius: 0px;
+    border: 0px solid #0016b0;
+    cursor: pointer;
+}
+
+/*.btn-export:hover{
+    /*color: #1883ba;*/
+    /*color: #2ECC71;
+    background-color: #ffffff;
+}*/
+
+/*Botones dentro de datatables*/
+.button-datatable {
+  font-family: "Poppins-ExtraLight";
+  font-size: 16px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  /*cursor: pointer;*/
+}
+
+.button-datatable-disabled {
+  opacity: 0.6;
+  background-color: #979A9A;
+}
+
+.pendiente {
+  background-color: #FFA500;
+  color: black;
+  border-radius: 0px;
+  padding: 2px 6px;
+  font-weight: bold;
+}
+
+.devuelto {
+  background-color: red;
+  border-radius: 0px;
+  padding: 2px 8px;
+  font-weight: bold;
+}
+
+.eliminado {
+  background-color: red;
+  border-radius: 0px;
+  padding: 2px 8px;
+  font-weight: bold;
+}
+
+.cargar-de-nuevo {
+  background-color: white; 
+  border-radius: 0px;
+  padding: 8px 8px;
+  color: black; 
+  border: 2px solid #008CBA;
+  cursor: pointer;
+}
+
+.cargar-de-nuevo-disable {
+  color: black;
+  opacity: 0.6;
+  background-color: #3498DB;
+  border-radius: 0px;
+  padding: 8px 8px;
+  cursor: not-allowed;
+}
+
+.descargar {
+  background-color: white;
+  border-radius: 0px;
+  padding: 8px 8px; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+}
+
+.restaurar {
+  background-color: #C62828;
+  border-radius: 0px;
+  padding: 8px 8px;
+  cursor: pointer;
+}
+
+.eliminar {
+  background-color: white;
+  border-radius: 0px;
+  padding: 8px 8px; 
+  color: black; 
+  border: 2px solid #f44336;
+  cursor: pointer;
+}
+
+.eliminar-disable {
+  color: black;
+  opacity: 0.6;
+  background-color: #C62828;
+  border-radius: 0px;
+  padding: 8px 8px;
+  cursor: not-allowed;
+}
+
+.w3-table,.w3-table-all{
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+  display:table
+}
+
+/*Tabla W3*/
+.w3-table-all{
+  border:1px solid #ccc
+}
+
+.w3-bordered tr,.w3-table-all tr{
+  border-bottom:1px solid #ddd
+}
+
+.w3-striped tbody tr:nth-child(even){
+  background-color:#f1f1f1
+}
+
+.w3-table-all tr:nth-child(odd){
+  background-color:#fff
+}
+
+.w3-table-all tr:nth-child(even){
+  background-color:#f1f1f1
+}
+
+.w3-table td,.w3-table th,.w3-table-all td,.w3-table-all th{
+  padding:8px 8px;
+  display:table-cell;
+  text-align:left;
+  /*vertical-align:top*/
+}
+
+.w3-table th:first-child,.w3-table td:first-child,.w3-table-all th:first-child,.w3-table-all td:first-child{
+  padding-left:16px
+}
+
+.btn-group .button {
+  background-color: #FDFEFE; /* Green */
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins-ExtraLight";
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #E5E8E8;
+  transition-duration: 0s;
+}

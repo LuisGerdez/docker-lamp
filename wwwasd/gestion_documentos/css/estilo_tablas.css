@@ -1,0 +1,554 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../../recursos/Poppins/Poppins-ExtraLight.ttf');
+  }
+
+body{
+    font-family: "Poppins";
+    -webkit-font-smoothing: antialiased;
+    margin: auto;
+    padding: 0;
+    padding-top: 5%;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding: 30px 0;
+}
+.dataTable-top, .dataTable-bottom{
+    background: #f3f3f3 !important;
+    border-radius: 5px;
+}
+.dataTable-top{
+    position: relative;
+    margin-bottom: 1px;
+}
+/* Table Styles */
+#back{
+    background: #555555;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.table-wrapper{
+    margin: 50px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    border-radius: 5px;
+   
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 16px;
+}
+.fl-table td:hover{
+    background-color: #bbb5b5;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #006CD8;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #9c9c9c;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+.fl-button {
+    cursor: pointer;
+    background-color: #006CD8;
+}
+.fl-button:hover{
+    background-color: #5491ce;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 3840px) {
+    h1{
+        font-size: 4rem;
+    }
+    .fl-table{
+        font-size: 2rem;
+    }
+    .fl-button{
+        font-size: 2rem;
+    }
+    .fl-table td{
+        font-size: 2rem;
+    }
+}
+@media screen and  (max-width: 2560px) {
+    h1{
+        font-size: 3.5rem;
+    }
+    .fl-table{
+        font-size: 1.5rem;
+    }
+    .fl-button{
+        font-size: 1.5rem;
+    }
+    .fl-table td{
+        font-size: 1.5rem;
+    }
+}
+@media screen and  (max-width: 1920px) {
+    h1{
+        font-size: 3rem;
+    }
+    .fl-table{
+        font-size: 1.2rem;
+    }
+    .fl-button{
+        font-size: 1.2rem;
+    }
+    .fl-table td{
+        font-size: 1.2rem;
+    }
+}
+@media screen and  (max-width:1440px){
+    h1{
+        font-size: 2.5rem;
+    }
+    .fl-table{
+        font-size: 1rem;
+    }
+    .fl-button{
+        font-size: 1rem;
+    }
+    .fl-table td{
+        font-size: 1rem;
+    }
+}
+@media screen and  (max-width:1366px){
+    h1{
+        font-size: 2.2rem;
+    }
+    .fl-table{
+        font-size: 12px;
+    }
+    .fl-button{
+        font-size: 16px;
+    }
+    .fl-table td{
+        font-size: 12px;
+    }
+}
+@media screen and  (max-width: 900px) {
+    .fl-table{
+        font-size: 0.8rem;
+    }
+    .fl-button{
+        font-size: 0.8rem;
+    }
+    .fl-table td{
+        font-size: 0.8rem;
+    }
+    
+}
+@media screen and (max-width:750px) {
+    h1{
+        font-size: 1.4rem;
+    }
+    .f1-table{
+        border: 0;
+        font-size: 0.6rem;
+        border-radius: 5px;
+    }
+    .fl-button{
+        display: block;
+        font-size: 0.6rem;
+        border-radius: 3px;
+       
+    }
+    .fl-table td{
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+        display: block;
+        border-radius: 3px;
+
+    }
+    .table-wrapper thead{
+        display: none;
+    }
+    .fl-table tr{
+        margin-bottom: 1.5%;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    .fl-table th, .fl-table td{
+        font-size: 0.45rem;
+       
+    }
+    .fl-table td::before{
+        content: attr(data-parent);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.45rem;
+
+        padding-left: 0.5%;
+        padding-right:2% ;
+        float: left;
+        width: 17%;
+    }
+}
+@media screen and (max-width:610px) {
+    h1{
+        font-size: 1.4rem;
+    }
+    .f1-table{
+        border: 0;
+        font-size: 0.6rem;
+        border-radius: 5px;
+    }
+    .fl-button{
+        display: block;
+        font-size: 0.6rem;
+        border-radius: 3px;
+        margin-left: 88%;
+    }
+    .fl-table td{
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+        display: block;
+        border-radius: 3px;
+
+    }
+    .table-wrapper thead{
+        display: none;
+    }
+    .fl-table tr{
+        margin-bottom: 1.5%;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    .fl-table th, .fl-table td{
+        font-size: 0.45rem;
+       
+    }
+    .fl-table td::before{
+        content: attr(data-parent);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.45rem;
+
+        padding-left: 0.5%;
+        padding-right:4% ;
+        float: left;
+        width: 17%;
+    }
+}
+@media screen and (max-width:563px) {
+    h1{
+        font-size: 1.2rem;
+    }
+    .f1-table{
+        border: 0;
+        font-size: 0.6rem;
+        border-radius: 5px;
+    }
+    .fl-button{
+        display: block;
+        font-size: 0.6rem;
+        border-radius: 3px;
+        margin-left: 88%;
+    }
+    .fl-table td{
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+        display: block;
+        border-radius: 3px;
+
+    }
+    .table-wrapper thead{
+        display: none;
+    }
+    .fl-table tr{
+        margin-bottom: 1.5%;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    .fl-table th, .fl-table td{
+        font-size: 0.45rem;
+       
+    }
+    .fl-table td::before{
+        content: attr(data-parent);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.45rem;
+
+        padding-left: 0.5%;
+        padding-right:6% ;
+        float: left;
+        width: 17%;
+    }
+}
+@media screen and (max-width:520px) {
+    h1{
+        font-size: 1.2rem;
+    }
+    .f1-table{
+        border: 0;
+        font-size: 0.6rem;
+        border-radius: 5px;
+    }
+    .fl-button{
+        display: block;
+        font-size: 0.6rem;
+        border-radius: 3px;
+        margin-left: 84%;
+    }
+    .fl-table td{
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+        display: block;
+        border-radius: 3px;
+
+    }
+    .table-wrapper thead{
+        display: none;
+    }
+    .fl-table tr{
+        margin-bottom: 1.5%;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    .fl-table th, .fl-table td{
+        font-size: 0.45rem;
+       
+    }
+    .fl-table td::before{
+        content: attr(data-parent);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.45rem;
+
+        padding-left: 0.5%;
+        padding-right:14% ;
+        float: left;
+        width: 17%;
+    }
+}
+@media screen and (max-width:440px) {
+    h1{
+        font-size: 1.2rem;
+    }
+    .f1-table{
+        border: 0;
+        font-size: 0.6rem;
+        border-radius: 5px;
+    }
+    .fl-button{
+        display: block;
+        font-size: 0.6rem;
+        border-radius: 3px;
+        margin-left: 84%;
+    }
+    .fl-table td{
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+        display: block;
+        border-radius: 3px;
+
+    }
+    .table-wrapper thead{
+        display: none;
+    }
+    .fl-table tr{
+        margin-bottom: 1.5%;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    .fl-table th, .fl-table td{
+        font-size: 0.35rem;
+       
+    }
+    .fl-table td::before{
+        content: attr(data-parent);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.35rem;
+
+        padding-left: 0.5%;
+        padding-right:14% ;
+        float: left;
+        width: 17%;
+    }
+}
+@media screen and (max-width:400px){
+    .fl-button{
+        margin-left: 80%;
+    }
+}
+@media screen and (max-width:360px) {
+    h1{
+        font-size: 1rem;
+    }
+    .f1-table{
+        border: 0;
+        font-size: 0.6rem;
+        border-radius: 5px;
+    }
+    .fl-button{
+        display: block;
+        font-size: 0.3rem;
+        border-radius: 3px;
+      
+    }
+    .fl-table td{
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+        display: block;
+        border-radius: 3px;
+
+    }
+    .table-wrapper thead{
+        display: none;
+    }
+    .fl-table tr{
+        margin-bottom: 1.5%;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    .fl-table th, .fl-table td{
+        font-size: 0.3rem;
+       
+    }
+    .fl-table td::before{
+        content: attr(data-parent);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.3rem;
+        padding-left: 0.5%;
+        padding-right:14% ;
+        float: left;
+        width: 17%;
+    }
+}
+.flecha{
+    background:#006CD8;
+    border-radius:50%;
+    padding:4px 4px 4px 4px;
+}
+
+.dataTable-wrapper{
+    border-radius:5px !important;
+
+}
+.thead{
+    border: none !important;
+    background: none !important;
+    color: black !important;
+    text-align: center !important;
+    padding-top: 2% !important;
+    font-weight: bolder;
+    font-size: 15px;
+}
+td{
+    border: 1px solid #e0e0e0 !important;
+    word-wrap: break-word;
+}
+#datatable_wrapper{
+    background: #f3f3f3;
+    padding: 15px 2px 10% 2px;
+    border-radius: 5px;
+}
+#datatable_wrapper input{
+    margin-right: 30px ;
+    background: white;
+    margin-bottom: 10px;
+}
+#datatable_wrapper select{
+    margin-right: 0px ;
+    background: white;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    margin-left: -9px;
+    border: none;
+    padding: 5px;
+    font-weight: bolder;
+}
+#datatable_wrapper label{
+    text-decoration: underline;
+    padding-left: 15px;
+    font-weight:500;
+}
+#datatable_filter label{
+    text-decoration: none;
+}
+#lupa{
+    position: absolute;
+    z-index: 1;
+    margin-left: 88%;
+    margin-top: 1.5%;
+}
+#lupa{
+    text-decoration: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+table{
+    padding-left: 28px;
+    padding-right: 28px;
+    table-layout:fixed;
+    font-family: 'Poppins-ExtraLight';
+    font-weight: bolder !important;
+    
+}
+#select{
+    text-decoration: none;
+}
+#select option{
+    background: white;
+    border: none;
+    font-weight: bolder;
+}
+select option {
+    font-weight: bolder;
+    border: none;
+    font-size: 13px;
+}

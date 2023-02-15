@@ -1,0 +1,264 @@
+
+/* Margo blanco */
+.main-container {
+    padding: 20px 30px;
+}
+
+/* Contenedor principal */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 15px;
+    width: 100%;
+}
+
+/* Contenedor de boton y barra de buqueda */
+.filtro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Boton de crear carpetas */
+.filtro-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-family: 'Poppins-ExtraLight';
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #006BD6;
+    color: #FFF;
+    gap: 15px;
+    padding: 5px 15px;
+}
+
+/* Icono del boton */
+.filtro-container button img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Barra de busqueda */
+.search-container {
+    position: relative;
+}
+
+.search-container input {
+    width: 350px;
+    padding: 5px 10px;
+    border: 1px solid #CCC;
+    outline: none;
+}
+
+.search-container input::placeholder {
+    font-style: italic;
+}
+
+.search-container img {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 20px;
+    transform: translateY(-50%);
+}
+
+/* Separador */
+.separador {
+    background-color: rgba(214, 214, 214, 0.5);
+    width: 0.5px;
+    height: 80%;
+    margin-top: 10px;
+}
+
+/* Carpeta */
+.folder-container {
+    position: relative;
+    display: flex;
+    width: 390px;
+    border-radius: 3px;
+    border: 1px solid rgba(214, 214, 214, 0.3);
+    background: linear-gradient(#FFF, #f5f5f5);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+    padding: 10px 0px 30px 10px;
+}
+
+.titulo {
+    font-family: 'Poppins-ExtraLight';
+    color: #006CD8;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+}
+
+.datos span {
+    font-family: 'Poppins-ExtraLight';
+    font-weight: bolder;
+    font-size: .8rem;
+}
+
+.visibilidad, .eliminar {
+    cursor: pointer;
+}
+
+#numero {
+    font-family: cursive;
+    font-weight: bold;
+    color: #006BD6;
+}
+
+.imagen {
+    width: 60px;
+    padding: 10px;
+}
+
+.visibilidad {
+    display: none;
+}
+
+.folder-container:hover > .visibilidad {
+    display: block;
+}
+
+.folder-container:hover > .imagen-container {
+    background-color: #217EDA;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/* documentos dentro de una carpeta */
+.table-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+}
+
+/* Ventana modal */
+.create-container {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 0px;
+    gap: 10px;
+    width: 600px;
+    background-color: #FFF;
+}
+
+.create-container h1, .create-container form label {
+    text-transform: uppercase;
+}
+
+.fondo {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.eliminar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 20px;
+}
+
+.visibilidad {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+#campo_texto {
+    outline-color: #00AAE4;
+}
+
+#formFolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formFolder input[type=submit] {
+    width: 20%;
+    text-transform: capitalize;
+    background-color: #198754;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+
+#formFolder input[type=submit]:hover {
+    background-color: #157347;
+}
+
+/* Paginación */
+#pag-container {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px
+}
+
+#pag-container p {
+    display: contents;
+}
+
+#anterior, #siguiente {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #666;
+    cursor: pointer;
+}
+
+#anterior {
+    margin-right: 5px;
+}
+
+#siguiente {
+    margin-left: 5px;
+}
+
+#pagina-1 {
+    border: 1px solid #CCC;
+    padding: 0px 5px;
+    outline: none;
+    border-radius: 2px;
+}

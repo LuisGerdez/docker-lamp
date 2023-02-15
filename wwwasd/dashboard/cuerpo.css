@@ -1,0 +1,267 @@
+.cuerpo-container {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    padding: 0px 0px 15px 0px;
+
+    margin: 0;
+
+    z-index: 300;
+
+}
+
+
+
+.datos-container{
+
+    color:#fff;
+
+    height: 16vh;
+
+    width: auto;
+
+    display: flex;
+
+    margin: 85px 0 15px 0;
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+.datos-datos{
+	
+	display: flex;
+	
+	align-items: center;
+
+    justify-content: center;
+
+    font-size: 40px;
+
+    padding: 3px 40px;
+    
+    color: #6d7fcc;
+    
+}
+
+
+
+.datos-datos header{
+
+    font-size: 20px;
+    
+    margin-right: 8px;
+    
+    color: #ffffff;
+
+}
+
+
+
+.type-file{
+
+    border: 3px dashed #D6D6D6;
+
+    height: 40vh;
+
+    width: 60vw;
+
+    border-radius: 5px;
+
+    display: flex;
+
+    opacity: 0;
+
+    overflow: hidden;
+
+    position: absolute;
+
+    cursor: pointer;
+
+}
+
+
+
+.drag-area-container{
+    margin: auto;
+
+    height: 43vh;
+
+    width: 72vw;
+
+    background-color: #fff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+.drag-area {
+
+    border: 3px dashed #D6D6D6;
+
+    height: 40vh;
+
+    width: 70vw;
+
+    border-radius: 5px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+
+
+.drag-area.active{
+
+    border: 2px solid #fff;
+
+}
+
+
+
+.drag-area header{
+
+    font-size: 30px;
+
+    font-weight: 500;
+
+    color: rgb(160, 160, 160);
+
+}
+
+
+
+.drag-area span {
+
+    font-size: 25px;
+
+    font-weight: 500;
+
+    color: rgb(160, 160, 160);
+
+    margin: 10px 0 15px 0;
+
+}
+
+
+
+.drag-area button{
+
+    padding: 10px 25px;
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+    border: none;
+
+    outline: none;
+
+    background: #6d7fcc;
+
+    border-radius: 5px;
+    
+    color: #fff;
+
+}
+
+.drag-area button i{
+	
+	margin-left: 15px;
+	
+	font-size: 20px;
+
+    color: #fff;
+	
+}
+
+
+
+.drag-area:hover{
+
+    border: 4px dashed rgb(139, 146, 255);
+
+}
+
+
+
+.drag-area:hover button{
+
+    background: #0060C1;
+
+    cursor: pointer;
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .datos-container {
+
+        padding: 2px 35px;
+
+        margin: 3px;
+
+    }
+
+
+
+    .datos-datos{
+
+        font-size: 20px;
+
+        padding: 3px 20px;
+
+        margin: 3px;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .datos-container {
+
+        flex-direction: column;
+
+        display:contents;
+
+    }
+
+
+
+    .datos-datos{
+
+        border-bottom: 2px solid #fff;
+
+        border-right: 0px;
+
+    }
+
+}

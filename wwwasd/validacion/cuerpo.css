@@ -1,0 +1,28 @@
+.cuerpo-container{
+    width: 100%;
+}
+
+.cuerpo-pdf{
+    border: 1px solid #E2E2E2;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.cuerpo-botones{
+    border: 1px solid #E2E2E2;
+    width: 98.4%;
+    padding: 10px;
+    background-color: #fff;
+    text-align: right;
+}
+
+.cuerpo-botones button{
+    padding: 12px;
+    background-color: #FCEC00;
+    margin-left: 15px;
+    border: 0.1px solid #B9B9B9;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}

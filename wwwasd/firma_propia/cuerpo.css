@@ -1,0 +1,65 @@
+
+.cuerpo-container{
+    width: 100%;
+}
+
+.cuerpo-imagen-firma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cuerpo-botones{
+    border: 1px solid #E2E2E2;
+    width: 98.4%;
+    padding: 10px;
+    background-color: #fff;
+    text-align: right;
+}
+
+.cuerpo-botones button{
+    padding: 12px;
+    background-color: #FCEC00;
+    margin-left: 15px;
+    border: 0.1px solid #B9B9B9;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cuerpo-imagen-firma label{
+    justify-content: center;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #FCEC00;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.cuerpo-imagen-firma label:hover{
+    background: #FACA40;
+    cursor: pointer;
+}
+
+.firma-input {
+    display: none;
+}
+
+.cuerpo-imagen-firma img{
+    border: 1px solid #E2E2E2;
+}
+.abposition{
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer !important;
+    border-color: #2175F2;
+    background: #2175F2 !important;
+}
